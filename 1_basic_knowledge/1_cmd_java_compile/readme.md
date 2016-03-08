@@ -1,9 +1,9 @@
-编译源文件（Hello.java），得到字节码（Hello.class）
+Compile source code （Hello.java）and get bytecode（Hello.class）
 ```cmd
 >javac Hello.java
 ```
 
-用java解释器执行字节码
+run bytecode by java interpreter
 ```cmd
 >java Hello
 ```
