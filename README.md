@@ -19,8 +19,8 @@ Environment: java version "1.8.0_73" + Windows10 64 bit
 
 
 # Build/Environment related
+* [Where to find java API doc](https://github.com/ybdesire/javalearn/blob/master/1_basic_knowledge/Java8_API_doc.md)
 * [How to build java by CMD](https://github.com/ybdesire/javalearn/blob/master/1_basic_knowledge/1_cmd_java_compile/readme.md)
 * [How to compile and run multi java files](https://github.com/ybdesire/javalearn/blob/master/1_basic_knowledge/10_throw_define_exception/2_self_defined_exception/readme.txt)
-
 
 
