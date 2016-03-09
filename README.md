@@ -1,5 +1,6 @@
 # javalearn
-Learn Java by coding.
+**Learn Java by coding**
+Environment: java version "1.8.0_73" + Windows10 64 bit
 
 
 # Source Code
