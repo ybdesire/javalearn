@@ -1,0 +1,646 @@
+Classfile /C:/mine/personal/prog/javalearn/1_basic_knowledge/16_check_jdk_version_of_jar/java8/Configuration.class
+  Last modified 2016-3-4; size 3777 bytes
+  MD5 checksum 41bc46dd1f999ca2d4958ff5bea0247b
+  Compiled from "Configuration.java"
+public class com.mars.crawler.conf.Configuration
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+    #1 = Class              #2            // com/mars/crawler/conf/Configuration
+    #2 = Utf8               com/mars/crawler/conf/Configuration
+    #3 = Class              #4            // java/lang/Object
+    #4 = Utf8               java/lang/Object
+    #5 = Utf8               user
+    #6 = Utf8               Ljava/lang/String;
+    #7 = Utf8               password
+    #8 = Utf8               broker
+    #9 = Utf8               requestQueueName
+   #10 = Utf8               instanceQueueName
+   #11 = Utf8               reportQueueName
+   #12 = Utf8               jmxURL
+   #13 = Utf8               jmxMonitorUser
+   #14 = Utf8               jmxMonitorPassword
+   #15 = Utf8               log
+   #16 = Utf8               Lorg/apache/commons/logging/Log;
+   #17 = Utf8               <clinit>
+   #18 = Utf8               ()V
+   #19 = Utf8               Code
+   #20 = Methodref          #21.#23       // org/apache/commons/logging/LogFactory.getLog:(Ljava/lang/Class;)Lorg/apache/commons/logging/Log;
+   #21 = Class              #22           // org/apache/commons/logging/LogFactory
+   #22 = Utf8               org/apache/commons/logging/LogFactory
+   #23 = NameAndType        #24:#25       // getLog:(Ljava/lang/Class;)Lorg/apache/commons/logging/Log;
+   #24 = Utf8               getLog
+   #25 = Utf8               (Ljava/lang/Class;)Lorg/apache/commons/logging/Log;
+   #26 = Fieldref           #1.#27        // com/mars/crawler/conf/Configuration.log:Lorg/apache/commons/logging/Log;
+   #27 = NameAndType        #15:#16       // log:Lorg/apache/commons/logging/Log;
+   #28 = Utf8               LineNumberTable
+   #29 = Utf8               LocalVariableTable
+   #30 = Utf8               <init>
+   #31 = Methodref          #3.#32        // java/lang/Object."<init>":()V
+   #32 = NameAndType        #30:#18       // "<init>":()V
+   #33 = Fieldref           #1.#34        // com/mars/crawler/conf/Configuration.user:Ljava/lang/String;
+   #34 = NameAndType        #5:#6         // user:Ljava/lang/String;
+   #35 = Fieldref           #1.#36        // com/mars/crawler/conf/Configuration.password:Ljava/lang/String;
+   #36 = NameAndType        #7:#6         // password:Ljava/lang/String;
+   #37 = Fieldref           #1.#38        // com/mars/crawler/conf/Configuration.broker:Ljava/lang/String;
+   #38 = NameAndType        #8:#6         // broker:Ljava/lang/String;
+   #39 = Fieldref           #1.#40        // com/mars/crawler/conf/Configuration.requestQueueName:Ljava/lang/String;
+   #40 = NameAndType        #9:#6         // requestQueueName:Ljava/lang/String;
+   #41 = Fieldref           #1.#42        // com/mars/crawler/conf/Configuration.instanceQueueName:Ljava/lang/String;
+   #42 = NameAndType        #10:#6        // instanceQueueName:Ljava/lang/String;
+   #43 = Fieldref           #1.#44        // com/mars/crawler/conf/Configuration.reportQueueName:Ljava/lang/String;
+   #44 = NameAndType        #11:#6        // reportQueueName:Ljava/lang/String;
+   #45 = Fieldref           #1.#46        // com/mars/crawler/conf/Configuration.jmxURL:Ljava/lang/String;
+   #46 = NameAndType        #12:#6        // jmxURL:Ljava/lang/String;
+   #47 = Fieldref           #1.#48        // com/mars/crawler/conf/Configuration.jmxMonitorUser:Ljava/lang/String;
+   #48 = NameAndType        #13:#6        // jmxMonitorUser:Ljava/lang/String;
+   #49 = Fieldref           #1.#50        // com/mars/crawler/conf/Configuration.jmxMonitorPassword:Ljava/lang/String;
+   #50 = NameAndType        #14:#6        // jmxMonitorPassword:Ljava/lang/String;
+   #51 = Utf8               this
+   #52 = Utf8               Lcom/mars/crawler/conf/Configuration;
+   #53 = Utf8               loadConf
+   #54 = Utf8               (Ljava/lang/String;)V
+   #55 = Utf8               Exceptions
+   #56 = Class              #57           // java/io/IOException
+   #57 = Utf8               java/io/IOException
+   #58 = Class              #59           // java/io/File
+   #59 = Utf8               java/io/File
+   #60 = Methodref          #58.#61       // java/io/File."<init>":(Ljava/lang/String;)V
+   #61 = NameAndType        #30:#54       // "<init>":(Ljava/lang/String;)V
+   #62 = Class              #63           // java/io/FileInputStream
+   #63 = Utf8               java/io/FileInputStream
+   #64 = Methodref          #62.#65       // java/io/FileInputStream."<init>":(Ljava/io/File;)V
+   #65 = NameAndType        #30:#66       // "<init>":(Ljava/io/File;)V
+   #66 = Utf8               (Ljava/io/File;)V
+   #67 = Class              #68           // java/util/Properties
+   #68 = Utf8               java/util/Properties
+   #69 = Methodref          #67.#32       // java/util/Properties."<init>":()V
+   #70 = Methodref          #67.#71       // java/util/Properties.load:(Ljava/io/InputStream;)V
+   #71 = NameAndType        #72:#73       // load:(Ljava/io/InputStream;)V
+   #72 = Utf8               load
+   #73 = Utf8               (Ljava/io/InputStream;)V
+   #74 = String             #5            // user
+   #75 = Methodref          #67.#76       // java/util/Properties.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+   #76 = NameAndType        #77:#78       // getProperty:(Ljava/lang/String;)Ljava/lang/String;
+   #77 = Utf8               getProperty
+   #78 = Utf8               (Ljava/lang/String;)Ljava/lang/String;
+   #79 = String             #7            // password
+   #80 = String             #8            // broker
+   #81 = String             #9            // requestQueueName
+   #82 = String             #10           // instanceQueueName
+   #83 = String             #11           // reportQueueName
+   #84 = String             #85           // jmx.url
+   #85 = Utf8               jmx.url
+   #86 = String             #87           // jmx.monitor.user
+   #87 = Utf8               jmx.monitor.user
+   #88 = String             #89           // jmx.monitor.password
+   #89 = Utf8               jmx.monitor.password
+   #90 = String             #91           // parse activemq configuration error.
+   #91 = Utf8               parse activemq configuration error.
+   #92 = InterfaceMethodref #93.#95       // org/apache/commons/logging/Log.error:(Ljava/lang/Object;Ljava/lang/Throwable;)V
+   #93 = Class              #94           // org/apache/commons/logging/Log
+   #94 = Utf8               org/apache/commons/logging/Log
+   #95 = NameAndType        #96:#97       // error:(Ljava/lang/Object;Ljava/lang/Throwable;)V
+   #96 = Utf8               error
+   #97 = Utf8               (Ljava/lang/Object;Ljava/lang/Throwable;)V
+   #98 = Methodref          #62.#99       // java/io/FileInputStream.close:()V
+   #99 = NameAndType        #100:#18      // close:()V
+  #100 = Utf8               close
+  #101 = Utf8               confPath
+  #102 = Utf8               in
+  #103 = Utf8               Ljava/io/FileInputStream;
+  #104 = Utf8               confFile
+  #105 = Utf8               Ljava/io/File;
+  #106 = Utf8               properties
+  #107 = Utf8               Ljava/util/Properties;
+  #108 = Utf8               e
+  #109 = Utf8               Ljava/io/IOException;
+  #110 = Utf8               StackMapTable
+  #111 = Class              #112          // java/lang/String
+  #112 = Utf8               java/lang/String
+  #113 = Class              #114          // java/lang/Throwable
+  #114 = Utf8               java/lang/Throwable
+  #115 = Utf8               getUser
+  #116 = Utf8               ()Ljava/lang/String;
+  #117 = Utf8               setUser
+  #118 = Utf8               getPassword
+  #119 = Utf8               setPassword
+  #120 = Utf8               getBroker
+  #121 = Utf8               setBroker
+  #122 = Utf8               getRequestQueueName
+  #123 = Utf8               setRequestQueueName
+  #124 = Utf8               getInstanceQueueName
+  #125 = Utf8               setInstanceQueueName
+  #126 = Utf8               getReportQueueName
+  #127 = Utf8               setReportQueueName
+  #128 = Utf8               getJmxURL
+  #129 = Utf8               setJmxURL
+  #130 = Utf8               getJmxMonitorUser
+  #131 = Utf8               setJmxMonitorUser
+  #132 = Utf8               getJmxMonitorPassword
+  #133 = Utf8               setJmxMonitorPassword
+  #134 = Utf8               SourceFile
+  #135 = Utf8               Configuration.java
+{
+  static {};
+    descriptor: ()V
+    flags: ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: ldc           #1                  // class com/mars/crawler/conf/Configuration
+         2: invokestatic  #20                 // Method org/apache/commons/logging/LogFactory.getLog:(Ljava/lang/Class;)Lorg/apache/commons/logging/Log;
+         5: putstatic     #26                 // Field log:Lorg/apache/commons/logging/Log;
+         8: return
+      LineNumberTable:
+        line 25: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+
+  public com.mars.crawler.conf.Configuration();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #31                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: aconst_null
+         6: putfield      #33                 // Field user:Ljava/lang/String;
+         9: aload_0
+        10: aconst_null
+        11: putfield      #35                 // Field password:Ljava/lang/String;
+        14: aload_0
+        15: aconst_null
+        16: putfield      #37                 // Field broker:Ljava/lang/String;
+        19: aload_0
+        20: aconst_null
+        21: putfield      #39                 // Field requestQueueName:Ljava/lang/String;
+        24: aload_0
+        25: aconst_null
+        26: putfield      #41                 // Field instanceQueueName:Ljava/lang/String;
+        29: aload_0
+        30: aconst_null
+        31: putfield      #43                 // Field reportQueueName:Ljava/lang/String;
+        34: aload_0
+        35: aconst_null
+        36: putfield      #45                 // Field jmxURL:Ljava/lang/String;
+        39: aload_0
+        40: aconst_null
+        41: putfield      #47                 // Field jmxMonitorUser:Ljava/lang/String;
+        44: aload_0
+        45: aconst_null
+        46: putfield      #49                 // Field jmxMonitorPassword:Ljava/lang/String;
+        49: return
+      LineNumberTable:
+        line 11: 0
+        line 13: 4
+        line 14: 9
+        line 15: 14
+        line 17: 19
+        line 18: 24
+        line 19: 29
+        line 21: 34
+        line 22: 39
+        line 23: 44
+        line 11: 49
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      50     0  this   Lcom/mars/crawler/conf/Configuration;
+
+  public void loadConf(java.lang.String) throws java.io.IOException;
+    descriptor: (Ljava/lang/String;)V
+    flags: ACC_PUBLIC
+    Exceptions:
+      throws java.io.IOException
+    Code:
+      stack=3, locals=7, args_size=2
+         0: aconst_null
+         1: astore_2
+         2: new           #58                 // class java/io/File
+         5: dup
+         6: aload_1
+         7: invokespecial #60                 // Method java/io/File."<init>":(Ljava/lang/String;)V
+        10: astore_3
+        11: new           #62                 // class java/io/FileInputStream
+        14: dup
+        15: aload_3
+        16: invokespecial #64                 // Method java/io/FileInputStream."<init>":(Ljava/io/File;)V
+        19: astore_2
+        20: new           #67                 // class java/util/Properties
+        23: dup
+        24: invokespecial #69                 // Method java/util/Properties."<init>":()V
+        27: astore        4
+        29: aload         4
+        31: aload_2
+        32: invokevirtual #70                 // Method java/util/Properties.load:(Ljava/io/InputStream;)V
+        35: aload_0
+        36: aload         4
+        38: ldc           #74                 // String user
+        40: invokevirtual #75                 // Method java/util/Properties.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+        43: putfield      #33                 // Field user:Ljava/lang/String;
+        46: aload_0
+        47: aload         4
+        49: ldc           #79                 // String password
+        51: invokevirtual #75                 // Method java/util/Properties.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+        54: putfield      #35                 // Field password:Ljava/lang/String;
+        57: aload_0
+        58: aload         4
+        60: ldc           #80                 // String broker
+        62: invokevirtual #75                 // Method java/util/Properties.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+        65: putfield      #37                 // Field broker:Ljava/lang/String;
+        68: aload_0
+        69: aload         4
+        71: ldc           #81                 // String requestQueueName
+        73: invokevirtual #75                 // Method java/util/Properties.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+        76: putfield      #39                 // Field requestQueueName:Ljava/lang/String;
+        79: aload_0
+        80: aload         4
+        82: ldc           #82                 // String instanceQueueName
+        84: invokevirtual #75                 // Method java/util/Properties.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+        87: putfield      #41                 // Field instanceQueueName:Ljava/lang/String;
+        90: aload_0
+        91: aload         4
+        93: ldc           #83                 // String reportQueueName
+        95: invokevirtual #75                 // Method java/util/Properties.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+        98: putfield      #43                 // Field reportQueueName:Ljava/lang/String;
+       101: aload_0
+       102: aload         4
+       104: ldc           #84                 // String jmx.url
+       106: invokevirtual #75                 // Method java/util/Properties.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+       109: putfield      #45                 // Field jmxURL:Ljava/lang/String;
+       112: aload_0
+       113: aload         4
+       115: ldc           #86                 // String jmx.monitor.user
+       117: invokevirtual #75                 // Method java/util/Properties.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+       120: putfield      #47                 // Field jmxMonitorUser:Ljava/lang/String;
+       123: aload_0
+       124: aload         4
+       126: ldc           #88                 // String jmx.monitor.password
+       128: invokevirtual #75                 // Method java/util/Properties.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+       131: putfield      #49                 // Field jmxMonitorPassword:Ljava/lang/String;
+       134: goto          172
+       137: astore        4
+       139: getstatic     #26                 // Field log:Lorg/apache/commons/logging/Log;
+       142: ldc           #90                 // String parse activemq configuration error.
+       144: aload         4
+       146: invokeinterface #92,  3           // InterfaceMethod org/apache/commons/logging/Log.error:(Ljava/lang/Object;Ljava/lang/Throwable;)V
+       151: aload         4
+       153: athrow
+       154: astore        5
+       156: aload_2
+       157: ifnull        169
+       160: aload_2
+       161: invokevirtual #98                 // Method java/io/FileInputStream.close:()V
+       164: goto          169
+       167: astore        6
+       169: aload         5
+       171: athrow
+       172: aload_2
+       173: ifnull        185
+       176: aload_2
+       177: invokevirtual #98                 // Method java/io/FileInputStream.close:()V
+       180: goto          185
+       183: astore        6
+       185: return
+      Exception table:
+         from    to  target type
+            11   134   137   Class java/io/IOException
+            11   154   154   any
+           160   164   167   Class java/io/IOException
+           176   180   183   Class java/io/IOException
+      LineNumberTable:
+        line 28: 0
+        line 29: 2
+        line 31: 11
+        line 32: 20
+        line 33: 29
+        line 35: 35
+        line 36: 46
+        line 37: 57
+        line 39: 68
+        line 40: 79
+        line 41: 90
+        line 43: 101
+        line 44: 112
+        line 45: 123
+        line 46: 134
+        line 47: 139
+        line 48: 151
+        line 49: 154
+        line 50: 156
+        line 52: 160
+        line 53: 164
+        line 56: 169
+        line 50: 172
+        line 52: 176
+        line 53: 180
+        line 57: 185
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0     186     0  this   Lcom/mars/crawler/conf/Configuration;
+            0     186     1 confPath   Ljava/lang/String;
+            2     184     2    in   Ljava/io/FileInputStream;
+           11     175     3 confFile   Ljava/io/File;
+           29     105     4 properties   Ljava/util/Properties;
+          139      15     4     e   Ljava/io/IOException;
+      StackMapTable: number_of_entries = 7
+        frame_type = 255 /* full_frame */
+          offset_delta = 137
+          locals = [ class com/mars/crawler/conf/Configuration, class java/lang/String, class java/io/FileInputStream, class java/io/File ]
+          stack = [ class java/io/IOException ]
+        frame_type = 80 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 12
+          locals = [ class com/mars/crawler/conf/Configuration, class java/lang/String, class java/io/FileInputStream, class java/io/File, top, class java/lang/Throwable ]
+          stack = [ class java/io/IOException ]
+        frame_type = 1 /* same */
+        frame_type = 255 /* full_frame */
+          offset_delta = 2
+          locals = [ class com/mars/crawler/conf/Configuration, class java/lang/String, class java/io/FileInputStream, class java/io/File ]
+          stack = []
+        frame_type = 74 /* same_locals_1_stack_item */
+          stack = [ class java/io/IOException ]
+        frame_type = 1 /* same */
+
+  public java.lang.String getUser();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #33                 // Field user:Ljava/lang/String;
+         4: areturn
+      LineNumberTable:
+        line 60: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/mars/crawler/conf/Configuration;
+
+  public void setUser(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #33                 // Field user:Ljava/lang/String;
+         5: return
+      LineNumberTable:
+        line 64: 0
+        line 65: 5
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lcom/mars/crawler/conf/Configuration;
+            0       6     1  user   Ljava/lang/String;
+
+  public java.lang.String getPassword();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #35                 // Field password:Ljava/lang/String;
+         4: areturn
+      LineNumberTable:
+        line 68: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/mars/crawler/conf/Configuration;
+
+  public void setPassword(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #35                 // Field password:Ljava/lang/String;
+         5: return
+      LineNumberTable:
+        line 72: 0
+        line 73: 5
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lcom/mars/crawler/conf/Configuration;
+            0       6     1 password   Ljava/lang/String;
+
+  public java.lang.String getBroker();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #37                 // Field broker:Ljava/lang/String;
+         4: areturn
+      LineNumberTable:
+        line 76: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/mars/crawler/conf/Configuration;
+
+  public void setBroker(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #37                 // Field broker:Ljava/lang/String;
+         5: return
+      LineNumberTable:
+        line 80: 0
+        line 81: 5
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lcom/mars/crawler/conf/Configuration;
+            0       6     1 broker   Ljava/lang/String;
+
+  public java.lang.String getRequestQueueName();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #39                 // Field requestQueueName:Ljava/lang/String;
+         4: areturn
+      LineNumberTable:
+        line 84: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/mars/crawler/conf/Configuration;
+
+  public void setRequestQueueName(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #39                 // Field requestQueueName:Ljava/lang/String;
+         5: return
+      LineNumberTable:
+        line 88: 0
+        line 89: 5
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lcom/mars/crawler/conf/Configuration;
+            0       6     1 requestQueueName   Ljava/lang/String;
+
+  public java.lang.String getInstanceQueueName();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #41                 // Field instanceQueueName:Ljava/lang/String;
+         4: areturn
+      LineNumberTable:
+        line 92: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/mars/crawler/conf/Configuration;
+
+  public void setInstanceQueueName(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #41                 // Field instanceQueueName:Ljava/lang/String;
+         5: return
+      LineNumberTable:
+        line 96: 0
+        line 97: 5
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lcom/mars/crawler/conf/Configuration;
+            0       6     1 instanceQueueName   Ljava/lang/String;
+
+  public java.lang.String getReportQueueName();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #43                 // Field reportQueueName:Ljava/lang/String;
+         4: areturn
+      LineNumberTable:
+        line 100: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/mars/crawler/conf/Configuration;
+
+  public void setReportQueueName(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #43                 // Field reportQueueName:Ljava/lang/String;
+         5: return
+      LineNumberTable:
+        line 104: 0
+        line 105: 5
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lcom/mars/crawler/conf/Configuration;
+            0       6     1 reportQueueName   Ljava/lang/String;
+
+  public java.lang.String getJmxURL();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #45                 // Field jmxURL:Ljava/lang/String;
+         4: areturn
+      LineNumberTable:
+        line 108: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/mars/crawler/conf/Configuration;
+
+  public void setJmxURL(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #45                 // Field jmxURL:Ljava/lang/String;
+         5: return
+      LineNumberTable:
+        line 112: 0
+        line 113: 5
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lcom/mars/crawler/conf/Configuration;
+            0       6     1 jmxURL   Ljava/lang/String;
+
+  public java.lang.String getJmxMonitorUser();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #47                 // Field jmxMonitorUser:Ljava/lang/String;
+         4: areturn
+      LineNumberTable:
+        line 116: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/mars/crawler/conf/Configuration;
+
+  public void setJmxMonitorUser(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #47                 // Field jmxMonitorUser:Ljava/lang/String;
+         5: return
+      LineNumberTable:
+        line 120: 0
+        line 121: 5
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lcom/mars/crawler/conf/Configuration;
+            0       6     1 jmxMonitorUser   Ljava/lang/String;
+
+  public java.lang.String getJmxMonitorPassword();
+    descriptor: ()Ljava/lang/String;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #49                 // Field jmxMonitorPassword:Ljava/lang/String;
+         4: areturn
+      LineNumberTable:
+        line 124: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/mars/crawler/conf/Configuration;
+
+  public void setJmxMonitorPassword(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #49                 // Field jmxMonitorPassword:Ljava/lang/String;
+         5: return
+      LineNumberTable:
+        line 128: 0
+        line 129: 5
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Lcom/mars/crawler/conf/Configuration;
+            0       6     1 jmxMonitorPassword   Ljava/lang/String;
+}
+SourceFile: "Configuration.java"
