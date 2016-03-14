@@ -4,6 +4,8 @@
 
 * 类也是对象，任何一个类是java.lang.Class类的对象
 
+* Class 即 类类型
+
 
 
 
