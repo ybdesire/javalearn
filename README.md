@@ -20,6 +20,12 @@ Environment: java version "1.8.0_73" + Windows10 64 bit
 * [Reflect](https://github.com/ybdesire/javalearn/tree/master/1_basic_knowledge/15_reflact)
 
 
+## 2 Data Structure
+
+* [LinkedList](5_data_structure/linked_list.java)
+
+
+
 # Build/Environment related
 * [Where to find java API doc](https://github.com/ybdesire/javalearn/blob/master/1_basic_knowledge/Java8_API_doc.md)
 * [How to build java by CMD](https://github.com/ybdesire/javalearn/blob/master/1_basic_knowledge/1_cmd_java_compile/readme.md)
