@@ -18,6 +18,7 @@ Environment: java version "1.8.0_73" + Windows10 64 bit
 * [ArrayList](https://github.com/ybdesire/javalearn/tree/master/1_basic_knowledge/13_ArrayList)
 * [Generic Type](https://github.com/ybdesire/javalearn/tree/master/1_basic_knowledge/14_generic_type)
 * [Reflect](https://github.com/ybdesire/javalearn/tree/master/1_basic_knowledge/15_reflact)
+* [HashCode](1_basic_knowledge/17_others/HashCode.java)
 
 
 ## 2 Data Structure
