@@ -3,9 +3,9 @@
 Environment: java version "1.8.0_73" + Windows10 64 bit
 
 
-# Source Code
+# 1. Basic
 
-## 1 Java Basic Knowledge
+## 1.1 Java Basic Knowledge
 * [User input/output](https://github.com/ybdesire/javalearn/blob/master/1_basic_knowledge/2_user_input_output/InOut.java)
 * [Polymorphism](https://github.com/ybdesire/javalearn/tree/master/1_basic_knowledge/4_polymorphism)
 * [abstract(eclipse)](https://github.com/ybdesire/javalearn/tree/master/1_basic_knowledge/6_abstract)
@@ -20,14 +20,18 @@ Environment: java version "1.8.0_73" + Windows10 64 bit
 * [Reflect](https://github.com/ybdesire/javalearn/tree/master/1_basic_knowledge/15_reflact)
 * [HashCode](1_basic_knowledge/17_others/HashCode.java)
 
+## 1.2 common usage
 
-## 2 Data Structure
+* [float to byte IEEE754](others/float_ieee754/Main.java)
+
+
+# 2. Data Structure
 
 * [LinkedList](5_data_structure/linked_list.java)
 
 
 
-# Build/Environment related
+# 3. Build/Environment related
 * [Where to find java API doc](https://github.com/ybdesire/javalearn/blob/master/1_basic_knowledge/Java8_API_doc.md)
 * [How to build java by CMD](https://github.com/ybdesire/javalearn/blob/master/1_basic_knowledge/1_cmd_java_compile/readme.md)
 * [How to build java by CMD with external .jar lib](https://github.com/ybdesire/javalearn/blob/master/2_lib_3rd/1_jsoup/Readme.md)
