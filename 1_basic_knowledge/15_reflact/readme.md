@@ -1,14 +1,16 @@
 # Class
 
-* ÍòÊÂÍòÎï¶¼ÊÇ¶ÔÏó
+* ä¸‡äº‹ä¸‡ç‰©éƒ½æ˜¯å¯¹è±¡
 
-* ÀàÒ²ÊÇ¶ÔÏó£¬ÈÎºÎÒ»¸öÀàÊÇjava.lang.ClassÀàµÄ¶ÔÏó
+* ç±»ä¹Ÿæ˜¯å¯¹è±¡ï¼Œä»»ä½•ä¸€ä¸ªç±»æ˜¯java.lang.Classç±»çš„å¯¹è±¡
 
-* Class ¼´ ÀàÀàĞÍ
-
-
+* Class å³ ç±»ç±»å‹
 
 
-¹ØÓÚ·´ÉäµÄÎÄÕÂ£º
-https://www.zybuluo.com/king/note/62917
-http://blog.sina.com.cn/s/blog_7ffb8dd5010127ix.html
+
+
+å…³äºåå°„çš„æ–‡ç« ï¼š
+* https://www.zybuluo.com/king/note/62917
+* http://blog.sina.com.cn/s/blog_7ffb8dd5010127ix.html
+* https://www.cnblogs.com/chanshuyi/p/head_first_of_reflection.html
+* https://juejin.im/post/598ea9116fb9a03c335a99a4
