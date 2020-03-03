@@ -20,7 +20,8 @@ Environment: java version "1.8.0_73" + Windows10 64 bit
 * [Reflect](https://github.com/ybdesire/javalearn/tree/master/1_basic_knowledge/15_reflact)
 * [HashCode](1_basic_knowledge/17_others/HashCode.java)
 * [Get random int value](1_basic_knowledge/18_random_num/RandInt.java)
-* [double to string with specific precision](1_basic_knowledge\19_double_to_string_with_specific_precision)
+* [double to string with specific precision](1_basic_knowledge/19_double_to_string_with_specific_precision)
+* [double to string with comma format](1_basic_knowledge/20_double_to_string_with_comma/)
 
 
 ## 1.2 common usage
