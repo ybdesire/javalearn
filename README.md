@@ -46,3 +46,7 @@ Environment: java version "1.8.0_73" + Windows10 64 bit
 # 4. swing
 * [gui layout basic: label,button(click event),MessageDialog](06_swing_gui/ui_layout_basic/src/com/pkg/)
 * [two panel layout](06_swing_gui/two_panel_layout/src/com/pkg)
+
+# 5. network
+* [URL class basic](07_net/MyURL.java)
+* [HTTP GET](07_net/MyURLRead.java)
