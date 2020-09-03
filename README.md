@@ -50,3 +50,6 @@ Environment: java version "1.8.0_73" + Windows10 64 bit
 # 5. network
 * [URL class basic](07_net/MyURL.java)
 * [HTTP GET](07_net/MyURLRead.java)
+
+# 6. org.apache.commons.text
+* [JaccardSimilarity](apache_text_similarity/MyStrSim.java)
